@@ -20,6 +20,8 @@ const Job = db.define('job', {
   new_job: {
     type: Sequelize.INTEGER,
   }
+}, {
+  updatedAt: false 
 });
 
-module.exports = Job
+module.exports = Job;
